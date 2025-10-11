@@ -37,7 +37,9 @@ A rede neural foi configurada com:
 * Otimizador Adam.
 
 Para comparação, também foram utilizados os modelos Scikit-learn LinearRegression e RandomForestRegressor.
-Os resultados foram avaliados pelas métricas de erro **RMSE** e **MAE**. O **Random Forest Regressor** alcançou o melhor desempenho, com os menores erros (RMSE: $0.1857$, MAE: $0.1210$). No entanto, a **Rede Neural em Keras** demonstrou um desempenho robusto (RMSE: $0.5356$, MAE: $0.3625$), superando de forma significativa o modelo de **Regressão Linear** (RMSE: $0.7197$, MAE: $0.5286$). O resultado da Keras valida a eficácia da arquitetura neural para capturar as complexas relações presentes no dataset.
+Os resultados foram avaliados pelas métricas de erro **RMSE** e **MAE** no conjunto de teste.
+
+O **Random Forest Regressor** alcançou o melhor desempenho (RMSE: 0.5040, MAE: 0.3268). A **Rede Neural em Keras** demonstrou um desempenho robusto e competitivo (RMSE: 0.5292, MAE: 0.3602), superando significativamente a **Regressão Linear** (RMSE: 0.7456, MAE: 0.5332). O resultado da Keras valida a eficácia da arquitetura neural para a modelagem deste problema.
 
 ---
 
